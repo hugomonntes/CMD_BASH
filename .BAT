@@ -19,3 +19,4 @@ setx PATH "%PATH%; C:\Almacen"
 
 3. Cambia de forma permanente el prompt para que tenga una forma similar al linux: UsuarioActual@ordenador: Trayectoria>.
 
+set prompt=%username%@%userdomain%$g
