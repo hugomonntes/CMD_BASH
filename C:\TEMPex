@@ -4,7 +4,6 @@ a) Indica como harías para que se realice una vez por semana un desfragmentado 
 Respuesta: win + R --> control admintools --> Programador de tareas --> Nueva Tarea --> Crear tarea (Poniendo hora, defrag, programa a ejecutar etc..)
 b) Indica los pasos que sigues para realizar las siguientes acciones
 - Crear una carpeta denominada C:\TEMP. --> mkdir TEMP
-- Crear nuevo usuario y darle control de acceso sólo de lectura a dicha carpeta. --> net user usuarioPrueba 1234 /add --> icacls C:/TEMP /grant usuarioPrueba:R
-- A ese nuevo usuario se le debe además denegar la escritura en su carpeta "Escritorio". --> 
-- Finalmente se debe de evitar que pueda ejecutar el Paint o un programa similar.
-- Entrar con la cuenta del usuario modificado y probar los cambios realizados.
+- Crear nuevo usuario y darle control de acceso sólo de lectura a dicha carpeta. --> net user usuarioPrueba 1234 /add --> icacls C:\TEMP /grant usuarioPrueba:R
+- A ese nuevo usuario se le debe además denegar la escritura en su carpeta "Escritorio". --> icacls C:\Desktop /deny usuarioPrueba:W
+- Entrar con la cuenta del usuario modificado y probar los cambios realizados. ✔
