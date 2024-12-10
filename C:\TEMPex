@@ -1,0 +1,10 @@
+Ejercicio 4:
+a) Indica como harías para que se realice una vez por semana un desfragmentado del disco C: los viernes a la
+1:00h encendiendo el ordenador si fuera necesario.
+win + R --> 
+b) Indica los pasos que sigues para realizar las siguientes acciones
+- Crear una carpeta denominada C:\TEMP.
+- Crear nuevo usuario y darle control de acceso sólo de lectura a dicha carpeta.
+- A ese nuevo usuario se le debe además denegar la escritura en su carpeta "Escritorio".
+- Finalmente se debe de evitar que pueda ejecutar el Paint o un programa similar.
+- Entrar con la cuenta del usuario modificado y probar los cambios realizados.
