@@ -1,0 +1,12 @@
+C:\Users\Hugo Montes>set path=%path%%almacen%
+C:\Users\Hugo Montes>set prompt=%username%@%userdomain%$g
+
+C:\WINDOWS\system32>net user usuario 123456 /add
+C:\WINDOWS\system32>net user usuario /delete
+
+C:\Users\Hugo Montes>icacls info.bat /grant usuario:F (FULL)
+C:\Users\Hugo Montes>icacls info.bat /deny usuario:W (WHRITE)
+C:\Users\Hugo Montes>icacls info.bat /deny usuario:R (READ)
+
+**grant (GARANTIZAR)**
+**deny(DENEGAR)**
