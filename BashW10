@@ -38,7 +38,7 @@ otro que se ejecute con otra cuenta y describe su utilidad.
 8. Desde el CMD
 a) Crear un nuevo tipo de archivo denominado archivoSO que ejecute el Notepad (está en el directorio apuntado por la variable de entorno SystemRoot) con un parámetro.
 Después asociad las extensiones .SO a ese tipo.
-    Wn + R --> 
+    
 b) Finalmente borra la asociación.
 
 c) Realiza un archivo por lotes al cual se le pase un tipo de archivo, una extensión y una ruta completa con un
@@ -55,6 +55,7 @@ Administrador de autenticación de Xbox Live --> Administrador de cuentas web --
 10. Busca tres claves del registro para realizar alguna modificación controlada y que puedas probar
 en el SO.
 
+Win + R --> Regedit --> HKEY
 
 
 
