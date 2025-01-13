@@ -33,31 +33,6 @@ programa ejecutable y realice la asociación pertinente.
 d) Averigua el nombre en inglés de las opciones vistas en el apartado Otros elementos del panel de control
 
 
-Presiona Windows + R, escribe secpol.msc y presiona Enter para abrir la Política de seguridad local.
-
-Navega a Directivas locales > Asignación de derechos de usuario.
-
-Busca y haz doble clic en Apagar el sistema.
-
-Elimina todos los usuarios y grupos excepto Administradores.
-
-Haz clic en Aplicar y luego en Aceptar.
-
-
-Presiona Windows + R, escribe gpedit.msc y presiona Enter para abrir el Editor de directivas de grupo local.
-
-Navega a Configuración de usuario > Plantillas administrativas > Escritorio > Escritorio.
-
-Haz doble clic en Tapiz del escritorio.
-
-Selecciona Habilitada y especifica la ruta de la imagen que deseas usar como fondo de pantalla.
-
-Haz clic en Aplicar y luego en Aceptar.
-
-
-
-
-
 
 
 
