@@ -50,12 +50,12 @@ d) Averigua el nombre en inglés de las opciones vistas en el apartado Otros ele
 9. Busca tres programas de Inicio del MSCONFIG que se puedan desactivar sin causar perjuicio en el
 sistema.
 
-Administrador de autenticación de Xbox Live --> Administrador de cuentas web --> Administrador de mapas descargados
+    Administrador de autenticación de Xbox Live --> Administrador de cuentas web --> Administrador de mapas descargados
 
 10. Busca tres claves del registro para realizar alguna modificación controlada y que puedas probar
 en el SO.
 
-Win + R --> Regedit --> HKEY
+    Win + R --> Regedit --> HKEY
 
 
 
