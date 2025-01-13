@@ -25,7 +25,8 @@ información en internet. Debes informar también de los siguientes aspectos par
     su función de actualización automática
 
 - ¿Está funcionando en estos momentos?
-    
+
+    Si
 
 - ¿Con que cuenta se ha ejecutado? Si todos los que has visto se ejecutan con la misma cuenta, busca
 otro que se ejecute con otra cuenta y describe su utilidad.
@@ -35,10 +36,9 @@ otro que se ejecute con otra cuenta y describe su utilidad.
     en segundo plano, ni usar una cuenta de Microsoft para el inicio de sesión único en otras aplicaciones o servicios.
 
 8. Desde el CMD
-a) Crear un nuevo tipo de archivo denominado archivoSO que ejecute el Notepad (está en el directorio
-apuntado por la variable de entorno SystemRoot) con un parámetro.
+a) Crear un nuevo tipo de archivo denominado archivoSO que ejecute el Notepad (está en el directorio apuntado por la variable de entorno SystemRoot) con un parámetro.
 Después asociad las extensiones .SO a ese tipo.
-
+    Wn + R --> 
 b) Finalmente borra la asociación.
 
 c) Realiza un archivo por lotes al cual se le pase un tipo de archivo, una extensión y una ruta completa con un
