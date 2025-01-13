@@ -19,11 +19,20 @@ c) Lo mismo con alguna configuración particular de gpedit.msc.
 7. Seleccionar 3 servicios e indica con tus palabras cuál es la utilidad de dicho servicio. Puedes buscar
 información en internet. Debes informar también de los siguientes aspectos para cada uno:
 - ¿Depende de otros servicios para poder ejecutarse?¿Cuáles?
-    
+
+    Habilita la detección, descarga e instalación de actualizaciones de Windows y otros programas. 
+    Si se deshabilita este servicio, los usuarios de este equipo no podrán usar Windows Update ni 
+    su función de actualización automática
+
 - ¿Está funcionando en estos momentos?
+    
+
 - ¿Con que cuenta se ha ejecutado? Si todos los que has visto se ejecutan con la misma cuenta, busca
 otro que se ejecute con otra cuenta y describe su utilidad.
 
+    Esta opción no permite usar la aplicación de Configuración para agregar una cuenta de Microsoft 
+    a la autenticación de inicio de sesión único (SSO) en los servicios Microsoft y algunos servicios 
+    en segundo plano, ni usar una cuenta de Microsoft para el inicio de sesión único en otras aplicaciones o servicios.
 
 8. Desde el CMD
 a) Crear un nuevo tipo de archivo denominado archivoSO que ejecute el Notepad (está en el directorio
@@ -45,18 +54,6 @@ Administrador de autenticación de Xbox Live --> Administrador de cuentas web --
 
 10. Busca tres claves del registro para realizar alguna modificación controlada y que puedas probar
 en el SO.
-
-Habilita la detección, descarga e instalación de actualizaciones de Windows y otros programas. Si se deshabilita este servicio, los usuarios de este equipo no podrán usar Windows Update ni su función de actualización automática
-Agrega, modifica y quita aplicaciones proporcionadas como paquetes de Windows Installer
-
-
-
-
-
-
-
-El servicio Windows Installer generalmente no está activo todo el tiempo.
-Se inicia automáticamente cuando es necesario
 
 
 
