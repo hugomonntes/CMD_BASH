@@ -7,10 +7,12 @@ Ejercicios
 -Forzar un fondo de pantalla para todos los usuarios.
     regedit --> HKEY_CURRENT_USER\Control Panel\Desktop --> Modificar el "Wallpaper" y poner la ruta completa al archivo de la imagen --> Reiniciar
     
-
 6. Dentro de Directivas locales:
 a) Coger 2 opciones de seguridad (que no se hayan visto en clase o ejercicios anteriores) y explicarlas
 con vuestra palabras buscando información sobre las mismas en la ayuda y en Internet.
+
+
+
 b) Realizar lo mismo pero con 2 opciones de Asignación de derechos de usuario
 c) Lo mismo con alguna configuración particular de gpedit.msc.
 
@@ -32,7 +34,11 @@ c) Realiza un archivo por lotes al cual se le pase un tipo de archivo, una exten
 programa ejecutable y realice la asociación pertinente.
 d) Averigua el nombre en inglés de las opciones vistas en el apartado Otros elementos del panel de control
 
+9. Busca tres programas de Inicio del MSCONFIG que se puedan desactivar sin causar perjuicio en el
+sistema.
 
+10. Busca tres claves del registro para realizar alguna modificación controlada y que puedas probar
+en el SO.
 
 
 
