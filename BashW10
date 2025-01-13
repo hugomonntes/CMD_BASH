@@ -10,12 +10,11 @@ Ejercicios
 6. Dentro de Directivas locales:
 a) Coger 2 opciones de seguridad (que no se hayan visto en clase o ejercicios anteriores) y explicarlas
 con vuestra palabras buscando información sobre las mismas en la ayuda y en Internet.
-
-
-
+    Opciones de Seguridad: Bloqueo acceso a objetos de grupo y Contraseña para servicios.
 b) Realizar lo mismo pero con 2 opciones de Asignación de derechos de usuario
+    Restablecer contraseñas de otros y Administrar auditorías del sistema.
 c) Lo mismo con alguna configuración particular de gpedit.msc.
-
+    Desactivar cambio automático de usuario y requerir CTRL+ALT+DEL.
 
 7. Seleccionar 3 servicios e indica con tus palabras cuál es la utilidad de dicho servicio. Puedes buscar
 información en internet. Debes informar también de los siguientes aspectos para cada uno:
@@ -29,10 +28,14 @@ otro que se ejecute con otra cuenta y describe su utilidad.
 a) Crear un nuevo tipo de archivo denominado archivoSO que ejecute el Notepad (está en el directorio
 apuntado por la variable de entorno SystemRoot) con un parámetro.
 Después asociad las extensiones .SO a ese tipo.
+
 b) Finalmente borra la asociación.
+
 c) Realiza un archivo por lotes al cual se le pase un tipo de archivo, una extensión y una ruta completa con un
 programa ejecutable y realice la asociación pertinente.
+
 d) Averigua el nombre en inglés de las opciones vistas en el apartado Otros elementos del panel de control
+    Systems and security --> networks and internet --> hardware and sound --> programs --> user accounts --> appearance and customization --> clock and region --> accessibility
 
 9. Busca tres programas de Inicio del MSCONFIG que se puedan desactivar sin causar perjuicio en el
 sistema.
@@ -42,9 +45,17 @@ Administrador de autenticación de Xbox Live --> Administrador de cuentas web --
 10. Busca tres claves del registro para realizar alguna modificación controlada y que puedas probar
 en el SO.
 
+Habilita la detección, descarga e instalación de actualizaciones de Windows y otros programas. Si se deshabilita este servicio, los usuarios de este equipo no podrán usar Windows Update ni su función de actualización automática
+Agrega, modifica y quita aplicaciones proporcionadas como paquetes de Windows Installer
 
 
 
+
+
+
+
+El servicio Windows Installer generalmente no está activo todo el tiempo.
+Se inicia automáticamente cuando es necesario
 
 
 
