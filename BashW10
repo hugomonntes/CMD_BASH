@@ -5,10 +5,7 @@ Ejercicios
 -Obligar a iniciar sesión para poder apagar el ordenador.
     Control Panel --> Herramientas Administrativas --> Directiva de Seguridad Local --> Asignación de Derechos de Usuario --> Apagar el sistema 
 -Forzar un fondo de pantalla para todos los usuarios.
-    Acceder al registro: Ejecuta el editor del registro (regedit.exe).
-    HKEY_CURRENT_USER\Control Panel\Desktop
-    Modifica el "Wallpaper" y poner la ruta completa al archivo de la imagen.
-    Reiniciar
+    regedit --> HKEY_CURRENT_USER\Control Panel\Desktop --> Modificar el "Wallpaper" y poner la ruta completa al archivo de la imagen --> Reiniciar
     
 
 6. Dentro de Directivas locales:
