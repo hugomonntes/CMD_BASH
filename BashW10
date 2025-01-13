@@ -6,9 +6,9 @@ Ejercicios
     Control Panel --> Herramientas Administrativas --> Directiva de Seguridad Local --> Asignación de Derechos de Usuario --> Apagar el sistema 
 -Forzar un fondo de pantalla para todos los usuarios.
     Acceder al registro: Ejecuta el editor del registro (regedit.exe).
-    Navegar a la clave: HKEY_CURRENT_USER\Control Panel\Desktop
-    Modificar el valor: Crea o modifica el valor de cadena "Wallpaper" y asigna la ruta completa al archivo de imagen.
-    Aplicar los cambios: Cierra sesión y vuelve a iniciar para que los cambios surtan efecto.
+    HKEY_CURRENT_USER\Control Panel\Desktop
+    Modifica el "Wallpaper" y poner la ruta completa al archivo de la imagen.
+    Reiniciar
     
 
 6. Dentro de Directivas locales:
