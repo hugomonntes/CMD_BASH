@@ -1,0 +1,40 @@
+Actividad:
+Cambiar la fecha y la hora del sistema.
+  C:\Users\Hugo Montes>date
+  La fecha actual es: 17/01/2025
+  Escriba la nueva fecha: (dd-mm-aa)
+
+Visualiza la versión del sistema
+  C:\Users\Hugo Montes>ver
+  Microsoft Windows [Versión 10.0.19045.5247]
+
+Borrar la pantalla
+  C:\Users\Hugo Montes>cls
+
+Crear un prompt que muestre tu nombre, la versión del windows, y dos puntos.
+  HugoMicrosoft Windows [Versión 10.0.19045.5247] : prompt Hugo$v : $g
+
+Volver al prompt estándar
+  prompt $p$g
+
+Pon como color de fondo el azul y de texto el amarillo
+  C:\Users\Hugo Montes> color 16
+
+Observa los módulos que usa el bloc de notas ¿Da algún servicio?
+  C:\Users\Hugo Montes>tasklist /M
+  
+  notepad.exe                      8672 ntdll.dll, KERNEL32.DLL, KERNELBASE.dll,
+                                   GDI32.dll, win32u.dll, gdi32full.dll,
+                                   msvcp_win.dll, ucrtbase.dll, USER32.dll,
+                                   combase.dll, RPCRT4.dll, shcore.dll,
+                                   msvcrt.dll, COMCTL32.dll, IMM32.DLL,
+                                   bcryptPrimitives.dll, ADVAPI32.dll,
+                                   sechost.dll, bcrypt.dll, kernel.appcore.dll,
+                                   uxtheme.dll, clbcatq.dll, MrmCoreR.dll,
+                                   SHELL32.dll, windows.storage.dll, Wldp.dll,
+                                   OLEAUT32.dll, shlwapi.dll, MSCTF.dll,
+                                   TextShaping.dll, efswrt.dll, MPR.dll,
+                                   wintypes.dll, twinapi.appcore.dll,
+                                   oleacc.dll, textinputframework.dll,
+                                   CoreMessaging.dll, CoreUIComponents.dll,
+                                   WS2_32.dll, ntmarta.dll
