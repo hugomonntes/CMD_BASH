@@ -21,7 +21,7 @@ Pon como color de fondo el azul y de texto el amarillo
   C:\Users\Hugo Montes> color 16
 
 Observa los módulos que usa el bloc de notas ¿Da algún servicio?
-  C:\Users\Hugo Montes>tasklist /M
+  C:\Users\Hugo Montes>tasklist /M /SVC
   
   notepad.exe                      8672 ntdll.dll, KERNEL32.DLL, KERNELBASE.dll,
                                    GDI32.dll, win32u.dll, gdi32full.dll,
