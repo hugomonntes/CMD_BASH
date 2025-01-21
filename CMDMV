@@ -1,0 +1,31 @@
+Actividad: Realiza las siguientes tareas en alguna partición o máquina virtual.
+
+ En el directorio de usuario crea otro directorio denominad TRABAJO
+    >md trabajo
+ Crea 3 directorios que cuelguen de TRABAJO con los nombres: PRINCIP, DATOS, CC.
+    >md .\trabajo\princip .\trabajo\datos .\trabajo\cc
+ Crea desde el directorio TRABAJO dos directorio dentro del subdirectorio CC
+denominados PROGRAMA y EJERC.
+    >md .\cc\Programa .\cc\Ejerc
+ También desde TRABAJO crea dos directorio dentro de EJERC denominados CAP1 y CAP2.
+    >md Ejerc\Cap1 Ejerc\Cap2 
+ Sitúate en EJERC y crea usando posiciones relativas un directorio en CC denominado
+RESUL1
+    >md ..\Resul1
+ Ahora te sitúas en CAP2 y creas otro directorio en CC denominado RESUL2 usando
+también posiciones relativas.
+    >md ..\..\cc\Resul2
+ Sitúate en CC y renombra EJER como EJ
+    >Rename Ejerc Ej
+ ahora mueve el directorio CAP2 al directorio PRINCIP
+    >move Cap2 .. 
+ Visualiza toda la estructura arbórea resultante que te queda
+    >tree
+ Borra CC
+    >rd ./cc
+ Visualiza toda la estructura arbórea resultante que te queda
+    >tree
+ Borra el resto de los subdirectorios creados.
+    
+ Crea un directorio denominado DOCUMENTOS en otra unidad sin cambiarte.
+ Pásate a dicho directorio de dicha unidad.
