@@ -28,4 +28,6 @@ también posiciones relativas.
  Borra el resto de los subdirectorios creados.
     >rd PRINCIP /s/q
  Crea un directorio denominado DOCUMENTOS en otra unidad sin cambiarte.
+    >md G:documentos
  Pásate a dicho directorio de dicha unidad.
+    >cd G:\docuemntos
