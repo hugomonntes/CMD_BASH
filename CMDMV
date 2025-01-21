@@ -26,6 +26,6 @@ también posiciones relativas.
  Visualiza toda la estructura arbórea resultante que te queda
     >tree
  Borra el resto de los subdirectorios creados.
-    
+    >rd PRINCIP /s/q
  Crea un directorio denominado DOCUMENTOS en otra unidad sin cambiarte.
  Pásate a dicho directorio de dicha unidad.
