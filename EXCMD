@@ -31,37 +31,3 @@ será la ayuda (HELP) de las ordenes CD, MD y RD respectivamente.
     C:\Users\Hugo Montes\TEMP2\C\programa>(echo cd/? & echo md/? & echo rd/?) > Texto.txt 
     C:\Users\Hugo Montes\TEMP2\C\programa>(echo cd/? & echo md/? & echo rd/?) > Texto.bak 
     C:\Users\Hugo Montes\TEMP2\C\programa>(echo cd/? & echo md/? & echo rd/?) > Texto1.bas 
-7. Sitúate en DATOS y copia desde PROGRAMA a RESULT los archivos que empiecen por TEX y su
-extensión empiece por BA
-    
-8. Renombra en RESULT el fichero TEXTO1.BAS por TEXTO1.BAK
-9. Copia todos los archivos del directorio RESULT en un único archivo situado en TEMP denominado
-AYUDA.TXT
-10. Cambia el nombre del directorio DATOS por DATOS.DAT
-11. Sitúate en TEMP y renombra el archivo TEXTO.TXT situado en PROGRAMA por TEXTO.BAS
-12. En el directorio RESULT cambia todas las extensiones por DAT
-13. Visualiza por pantalla el contenido del fichero TEXTO.DAT del directorio RESULT.
-14. Mueve el fichero TEXTO.DAT del directorio RESULT al directorio DATOS.DAT con el nombre
-TEXTO1.DAT
-15. Borra todos los archivos del directorio PROGRAMA cuya primera letra de la extensión sea B.
-16. Crea en RESULT 4 ficheros:
-- FICH1 que contenga todo el árbol de directorios del disco duro C.
-- FICH2 que contenga un DIR del directorio TEMP y todos sus subdirectorios
-- FICH3 que contenga todos los atributos del directorio raíz.
-- PROCESOS.CSV que contenga los procesos en ejecución con información completa del BCP.
-17. Pon atributos de solo lectura a los 3 primeros ficheros creados en el ejercicio anterior. Además
-FICH3 debe estar oculto. Prueba a borrarlos para comprobar que ocurre. Finalmente visualiza los
-atributos de los archivos del directorio RESULT
-18. Visualiza FICH2 y PROCESOS.CSV poco a poco mediante TYPE. Luego abre con el Open/LibreOffice
-o con el Excel PROCESOS.CSV ¿Qué sucede?¿Qué utilidad tiene el formato CSV?
-19. Crea en RESULT el archivo RAIZ.TXT que contiene sin encabezamientoslos directorios y archivos
-del directorio raíz.
-20. Muestra el archivo RAIZ.TXT ordenado alfabéticamente en orden ascendente y luego en orden
-descendente.
-21. Busca en FICH1 si existe la palabra “windows” indicando el número de línea en el que aparece.
-Hazlo teniendo en cuenta mayúsculas/minúsculas y sin tenerlo en cuenta.
-22. Borra, desde el directorio PROGRAMA, el directorio RESULT al completo.
-23. Trata de borrar desde el directorio PROGRAMA el directorio C:\TEMP al completo ¿qué
-ocurre?¿Por qué no lo permite?
-24. Cámbiate de unidad de disco
-25. Borra el directorio C:\TEMP al completo
