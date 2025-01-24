@@ -22,12 +22,18 @@ y teléfono. No se pueden usar editores.
 5. Crea otro archivo denominado ALUMNOS.TXT que guarde el nombre de todos los alumnos de
 clase. Debe aparecer un nombre en cada línea. Mostrarlo luego ordenado alfabéticamente en
 orden ascendente y luego en descendente.
-     C:\Users\Hugo Montes>TEMP2>(echo Carlos & echo Diego & echo Pablo & echo Ivan) > Alumnos.txt 
+     C:\Users\Hugo Montes>TEMP2>(echo Carlos & echo Diego & echo Pablo & echo Ivan) > Alumnos.txt
+     C:\Users\Hugo Montes>TEMP2> type Alumno.txt
+     C:\Users\Hugo Montes>TEMP2> sort Alumno.txt
+     C:\Users\Hugo Montes>TEMP2> sort Alumno.txt /r
 6. En el directorio PROGRAMA creas 3 ficheros : TEXTO.TXT, TEXTO.BAK y TEXTO1.BAS. Su contenido
 será la ayuda (HELP) de las ordenes CD, MD y RD respectivamente.
-    
+    C:\Users\Hugo Montes\TEMP2\C\programa>(echo cd/? & echo md/? & echo rd/?) > Texto.txt 
+    C:\Users\Hugo Montes\TEMP2\C\programa>(echo cd/? & echo md/? & echo rd/?) > Texto.bak 
+    C:\Users\Hugo Montes\TEMP2\C\programa>(echo cd/? & echo md/? & echo rd/?) > Texto1.bas 
 7. Sitúate en DATOS y copia desde PROGRAMA a RESULT los archivos que empiecen por TEX y su
 extensión empiece por BA
+    
 8. Renombra en RESULT el fichero TEXTO1.BAS por TEXTO1.BAK
 9. Copia todos los archivos del directorio RESULT en un único archivo situado en TEMP denominado
 AYUDA.TXT
