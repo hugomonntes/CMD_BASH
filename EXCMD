@@ -1,16 +1,31 @@
 Ejercicios:
 1. Crea el siguiente árbol de directorios dentro de un directorio denominado TEMP:
-    
+    C:\Users\Hugo Montes\TEMP2>tree
+    Listado de rutas de carpetas
+    El número de serie del volumen es 98F9-643F
+    +---C
+    ¦   +---Ejercici
+    ¦   ¦   +---nuevos
+    ¦   ¦   +---revisado
+    ¦   +---programa
+    +---Datos
+    +---Princip
+    +---Result
 2. Cambia el color de la consola al que tu desees.
+    C:\Users\Hugo Montes>color 0A
 3. Crea en TEMP el fichero TEXTO.TXT cuyo contenido sea la fecha y hora actual. También debe
 contener la versión del Sistema.
+    C:\Users\Hugo Montes>echo Fecha: %date% Hora: %time% Version del sistema: %ver% > TEXTO.TXT 
 4. Crea en TEMP un fichero denominado ALUMNO.TXT que contenga tu nombre, apellidos, dirección
 y teléfono. No se pueden usar editores.
+    C:\Users\Hugo Montes>TEMP2>echo Hugo Montes Fernandez Redondela 674589632 > Alumno.txt
 5. Crea otro archivo denominado ALUMNOS.TXT que guarde el nombre de todos los alumnos de
 clase. Debe aparecer un nombre en cada línea. Mostrarlo luego ordenado alfabéticamente en
 orden ascendente y luego en descendente.
+     C:\Users\Hugo Montes>TEMP2>(echo Carlos & echo Diego & echo Pablo & echo Ivan) > Alumnos.txt 
 6. En el directorio PROGRAMA creas 3 ficheros : TEXTO.TXT, TEXTO.BAK y TEXTO1.BAS. Su contenido
 será la ayuda (HELP) de las ordenes CD, MD y RD respectivamente.
+    
 7. Sitúate en DATOS y copia desde PROGRAMA a RESULT los archivos que empiecen por TEX y su
 extensión empiece por BA
 8. Renombra en RESULT el fichero TEXTO1.BAS por TEXTO1.BAK
