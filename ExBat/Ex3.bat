@@ -1,12 +1,9 @@
-3. a) Realiza un fichero denominado ARBOL.BAT que cree el árbol de directorios siguiente:
-TEMP
-├───C
-│ ├───ejercici
-│ │ ├───nuevos
-│ │ └───revisado
-│ └───programa
-├───datos
-├───princip
-└───result
-b) Haz un fichero denominado ARBOL2.BAT que permita crear el árbol anterior en el lugar indicado como
-parámetro.
+@echo off
+cls
+
+md TEMP3
+md TEMP3\Datos TEMP3\Princip TEMP3\Result TEMP3\C
+md TEMP3\C\Ejercici TEMP3\C\Programa
+md TEMP3\C\Ejercici\nuevos TEMP3\C\Ejercici\revisado
+
+tree TEMP3 
