@@ -1,0 +1,21 @@
+Ver la informacion del usuario actual
+hmontes@A22PCXX:/home$ id 
+uid=1003(hmontes) gid=1004(hmontes) grupos=1004(hmontes),27(sudo)
+
+Crea dos nuevo usuario y que uno de ellos esté en el grupo sudo 
+hmontes@A22PCXX:/home$ sudo adduser user2
+hmontes@A22PCXX:/home$ sudo adduser user3
+hmontes@A22PCXX:/home$ sudo addgroup user2 sudo
+
+Crea un grupo denominado clase y añade los usuarios anteriores a este grupo
+hmontes@A22PCXX:/home$ sudo addgroup clase
+Añadiendo el grupo `clase' (GID 1007) ...
+Hecho.
+hmontes@A22PCXX:/home$ sudo addgroup user2 clase 
+Añadiendo al usuario `user2' al grupo `clase' ...
+Añadiendo al usuario user2 al grupo clase
+Hecho.
+hmontes@A22PCXX:/home$ sudo addgroup user3 clase 
+Añadiendo al usuario `user3' al grupo `clase' ...
+Añadiendo al usuario user3 al grupo clase
+Hecho.
