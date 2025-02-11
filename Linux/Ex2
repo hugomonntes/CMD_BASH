@@ -1,0 +1,7 @@
+hmontes@A22PCXX:~$ mkdir programas
+hmontes@A22PCXX:~$ mkdir directorios
+hmontes@A22PCXX:~$ mkdir otros
+hmontes@A22PCXX:~$ mkdir documentos
+hmontes@A22PCXX:~$ mv documentos/ otros/
+
+hmontes@A22PCXX:~$ cp -r  Escritorio/ programas/
