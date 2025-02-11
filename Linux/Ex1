@@ -1,0 +1,11 @@
+nano scriptFecha.sh
+
+#!/bin/bash
+
+echo "Mostrar fecha actual" $(date)
+echo "Mostrar info del sistema" $(uname -a)
+echo "Mostrar calendario"
+$(cal -y)
+
+Cambiar permisos > chmod 754 scriptFecha.sh
+Añadir grupo sudo > chown :sudo scriptFecha.sh
