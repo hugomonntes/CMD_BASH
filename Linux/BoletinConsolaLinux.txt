@@ -1,0 +1,115 @@
+1. Una distribución de Linux es:
+   El núcleo del SO, junto con un programa de instalación y una selección de
+  aplicaciones.
+   El núcleo del SO, junto con un entorno grafico y una selección de aplicaciones.
+   Las dos respuestas anteriores son correctas. V
+2. ¿En que directorio se encuentran los ficheros de configuración del sistema?
+3. Muestra el contenido del directorio actual.
+4. Muestra el contenido del directorio que está justo a un nivel superior.
+5. ¿En que día de la semana naciste?, utiliza la instrucción cal para averiguarlo.
+6. Muestra los archivos del directorio /bin.
+7. Suponiendo que te encuentras en tu directorio personal (/home/nombre), muestra un
+listado del contenido de /usr/bin: a) con una sola línea de comando, b) moviéndote
+paso a paso por los directorios y c) con dos líneas de comandos.
+8. Muestra todos los archivos que hay en /etc y todos los que hay dentro de cada
+subdirectorio, de forma recursiva (con un solo comando).
+9. Muestra todos los archivos del directorio /usr/X11R6/bin ordenados por tamaño (de
+mayor a menor). Solo debe aparecer el nombre de cada fichero, sin ninguna otra
+información adicional.
+10. Muestra todos los archivos del directorio /etc ordenados por tamaño (de mayor a
+menor) junto con el resto de características, es decir, permisos, tamaño, fechas de la
+ultima modificación, etc. El tamaño de cada fichero debe aparecer en un formato
+“legible”, o sea, expresado en Kb, Mb, etc.
+11. Muestra todos los archivos del directorio /bin ordenados por tamaño (de menor a
+mayor).Solo debe aparecer el tamaño y el nombre de cada fichero, sin ninguna otra
+información adicional. El tamaño de cada fichero debe aparecer en un formato
+“legible”, o sea, expresado en Kb, Mb, etc.
+12. Muestra el contenido del directorio raíz utilizando como argumento de ls una ruta
+absoluta.
+13. Muestra el contenido del directorio raíz utilizando como argumento de ls una ruta
+relativa. Suponemos que el directorio actual es /home/nombre/documentos.
+14. Crea el directorio gastos dentro del directorio personal.
+15. ¿Qué sucede si se intenta crear un directorio dentro de /etc?
+16. Muestra el contenido del fichero /etc/fstab
+17. Muestra las 10 primeras líneas del fichero /etc/bash.bashrc.
+18. Crea la siguiente estructura de directorios dentro del directorio de trabajo personal:
+19. Crea un fichero vacio dentro del directorio música, con nombre estilos_favoritos.txt.
+20. Utiliza tu editor preferido para abrir el fichero estilos_favoritos.txt e introduce los
+estilos de música que más te gusten. Guarda los cambios y sal.
+21. Muestra todo el contenido de estilos_favoritos.txt
+22. Muestra las 3 primeras líneas de estilos_favoritos.txt
+23. Muestra la última línea de estilos_favoritos.txt
+24. Muestra todo el contenido del fichero estilos_favoritos.txt excepto la primera línea. Se
+supone que no sabemos de antemano el número de líneas del fichero.
+25. Muestra todos los archivos del directorio actual que son imágenes jpg.
+26. Muestra todos los archivos del directorio /usr/bin que empiecen por la letra j.
+27. Muestra los archivos que empiecen por k y tengan una a en la tercera posición, dentro
+del directorio /usr/bin.
+28. Muestra los archivos del directorio /bin que terminen en n.
+29. Muestra todos los archivos que hay en /etc y todos los que hay dentro de cada
+subdirectorio, de forma recursiva.
+30. Crea un directorio en tu directorio de trabajo con nombre prueba. Copia el archivo gzip
+del directorio /bin al directorio prueba. Crea un duplicado de gzip con nombre gzip2
+dentro de prueba.
+31. Cambia el nombre de prueba a prueba2. Crea prueba3 en el mismo nivel que prueba2
+y mueve todos los ficheros de prueba2 a prueba3. Borra prueba2.
+32. Crea un fichero vacio con nombre “*? Hola caracola?*”. ¿Se puede? En caso de que se
+pudiera, ¿sería recomendable poner nombres así? Razona la respuesta.
+33. Crea un directorio con nombre multimedia_pruebas y copia en el todo el contenido del
+directorio multimedia. A continuación crea en multimedia/video/ dos ficheros, uno
+con nombre peliculas.txt y otro con nombre actores.txt. Edita el fichero peliculas.txt e
+introduce el nombre de tu película favorita. A continuación, crea en
+multimedia_pruebas/video/ otro fichero que también tenga por nombre peliculas.txt,
+edítalo y esta vez escribe el nombre de tus cinco películas favoritas. Ahora haz una
+copia de todo el contenido de multimedia en multimedia_prueba de tal forma que
+solo se copien los contenidos nuevos, es decir, si hay coincidencia en el nombre de un
+archivo se respetara el que se haya modificado más recientemente. Para comprobar
+que se ha hecho todo correctamente, basta mirar si en multimedia_prueba/video esta
+el archivo vacio actores.txt y además el archivo peliculas.txt debe contener 5 películas
+y no 1.
+34. Borra el directorio multimedia/imagenes/otras. El sistema debe pedir al usuario que
+confirme el borrado.
+35. Mueve el archivo peliculas.txt, que está dentro de multimedia/video, al directorio que
+está justo a un nivel superior. Ahora el archivo debe llamarse mis_peliculas.txt en lugar
+de películas.
+36. Completa la siguiente tabla:
+37. Crea los grupos oficina1 y oficina2.
+38. Crea los usuarios paco y pablo. Estos usuarios deben pertenecer únicamente al grupo
+oficina1.
+39. Crea los usuarios alba y nerea. Estos usuarios deben pertenecer únicamente al grupo
+oficina2.
+40. Como usuario paco .Crea un fichero con nombre topsecret.txt en su directorio de
+trabajo al que únicamente el tenga acceso, tanto de lectura como de escritura.
+41. Crea otro fichero, también como usuario paco, con nombre ventas_trimestre.txt al
+que tengan acceso, tanto para leer como para escribir todos los usuarios que
+pertenezcan al mismo grupo. Se deben dejar los permisos que haya por defecto para el
+dueño y para el resto de usuarios. Comprueba como usuario pablo que puedes
+modificar el fichero.
+42. Como usuario alba, crea un fichero con nombre empleados.txt al que pueda acceder
+cualquier usuario para leer su contenido, y cualquier usuario del mismo grupo para
+leer o escribir.
+43. Copia el fichero empleados.txt al directorio de trabajo de alumno (crea también el
+usuario alumno si no está creado). Cambia el propietario y el grupo al que pertenece el
+fichero, ahora debe ser alumno.
+44. Como usuario pablo, copia un programa del directorio /usr/bin al directorio de trabajo
+con un nombre diferente. Por ejemplo xclock se puede copiar como reloj. Mira los
+permisos de este programa. Comprueba que se puede ejecutar.
+45. Cambia los permisos de reloj de tal forma que solo lo pueda ejecutar el propietario del
+archivo.
+46. Crea el usuario modesto, perteneciente a oficina2. Dentro de su directorio de trabajo,
+crea un directorio de nombre compartido_con_todos.
+47. Cambia de usuario en el entorno grafico (botón salir y botón cambiar de usuario) y
+entra como modesto. Crea con OpenOffice.org Calc los ficheros
+telefono_contactos.ods, gastos_marzo.ods y sueldos.ods. Inserta varias entradas en
+cada uno de los ficheros y grábalo todo en el directorio compartido_con_todos.
+48. Da permiso de lectura a la carpeta compartido_con_todos y a todos los ficheros que
+contenga para todos los usuarios.
+49. Restringe el acceso de escritura sobre el fichero telefono_contactos para que solo lo
+puedan modificar los usuarios del grupo al que pertenece su propietario.
+50. Cambia los permisos de gastos_marzo para que solo pueda modificarlo su propietario
+y leerlo cualquiera del mismo grupo.
+51. Cambia los permisos de sueldos para que solo su dueño tenga acceso a él, tanto para
+lectura como para escritura.
+52. Si un usuario tiene permiso de lectura sobre un fichero pero ese fichero se encuentra
+dentro de un directorio sobre el que no tiene permiso de lectura, ¿podrá leer el
+fichero?, haz la prueba.
