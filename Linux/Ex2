@@ -1,3 +1,4 @@
+1.
 hmontes@A22PCXX:~$ mkdir programas
 hmontes@A22PCXX:~$ mkdir directorios
 hmontes@A22PCXX:~$ mkdir otros
@@ -5,3 +6,35 @@ hmontes@A22PCXX:~$ mkdir documentos
 hmontes@A22PCXX:~$ mv documentos/ otros/
 
 hmontes@A22PCXX:~$ cp -r  Escritorio/ programas/
+
+2.Crear un archivo de texto (denominado MisArchivos.texto) en el directorio 'otros' que
+contenga un listado de todo el directorio 'home' y sus subdirectorios incluidos los ocultos y en
+formato largo con información compresible para humanos en cuanto al tamaño.
+
+  hmontes@A22PCXX:~/otros$ nano MisArchivos.texto 
+  #!/bin/bash
+  ls -alh ./home
+
+3. Mover el documento MisArchivos.texto al directorio 'directorios'
+  hmontes@A22PCXX:~/otros$ mv MisArchivos.texto ../directorios/
+
+4. Visualizar el contenido del directorio 'otros' en formato largo
+  hmontes@A22PCXX:~/otros$ ls -l
+5. Cambia los permisos de MisArchivos.texto de forma que el usuario lo pueda leer y escribir, el
+grupo sólo leer y el resto nada.
+   hmontes@A22PCXX:~/directorios$ chmod 620 MisArchivos.texto
+
+6. Cambia el propietario y el grupo de MisArchivos.texto.
+  hmontes@A22PCXX:~/directorios$ sudo chown user1 :sudo MisArchivos.texto
+
+7. Ver espacio libre que queda
+  hmontes@A22PCXX:~/directorios$ df -h
+
+8. Ver espacio que ocupa lo que se ha creado
+  hmontes@A22PCXX:~/directorios$ du -sh ~
+9. Borrar los archivos que hay en 'programas'
+  hmontes@A22PCXX:~$ rm -r programas/
+10. Borrar los 3 directorios creados
+  hmontes@A22PCXX:~$ rm -r directorios/ otros/
+11. Ver el espacio libre que queda
+  hmontes@A22PCXX:~$ df -h
