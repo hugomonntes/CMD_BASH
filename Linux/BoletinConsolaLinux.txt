@@ -10,10 +10,19 @@
 4. Muestra el contenido del directorio que está justo a un nivel superior.
   hmontes@A22PCXX:/etc$ ls ../
 5. ¿En que día de la semana naciste?, utiliza la instrucción cal para averiguarlo.
+  hmontes@A22PCXX:~$ cal 2003
+  Resultado: Lunes 20
 6. Muestra los archivos del directorio /bin.
+  hmontes@A22PCXX:/$ ls ./bin
 7. Suponiendo que te encuentras en tu directorio personal (/home/nombre), muestra un
 listado del contenido de /usr/bin: a) con una sola línea de comando, b) moviéndote
 paso a paso por los directorios y c) con dos líneas de comandos.
+  a) hmontes@A22PCXX:~$ ls ../../bin
+  b) hmontes@A22PCXX:/$ cd ..
+     hmontes@A22PCXX:/$ cd ..
+     hmontes@A22PCXX:/$ ls /bin
+  c) hmontes@A22PCXX:/$ cd /../../
+     hmontes@A22PCXX:/$ ls /bin
 8. Muestra todos los archivos que hay en /etc y todos los que hay dentro de cada
 subdirectorio, de forma recursiva (con un solo comando).
 9. Muestra todos los archivos del directorio /usr/X11R6/bin ordenados por tamaño (de
