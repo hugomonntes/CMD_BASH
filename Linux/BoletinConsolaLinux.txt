@@ -1,11 +1,14 @@
 1. Una distribución de Linux es:
    El núcleo del SO, junto con un programa de instalación y una selección de
-  aplicaciones.
+  aplicaciones. 
    El núcleo del SO, junto con un entorno grafico y una selección de aplicaciones.
-   Las dos respuestas anteriores son correctas. V
+   Las dos respuestas anteriores son correctas. (ESTA)
 2. ¿En que directorio se encuentran los ficheros de configuración del sistema?
+  /etc
 3. Muestra el contenido del directorio actual.
+  hmontes@A22PCXX:/etc$ ls
 4. Muestra el contenido del directorio que está justo a un nivel superior.
+  hmontes@A22PCXX:/etc$ ls ../
 5. ¿En que día de la semana naciste?, utiliza la instrucción cal para averiguarlo.
 6. Muestra los archivos del directorio /bin.
 7. Suponiendo que te encuentras en tu directorio personal (/home/nombre), muestra un
