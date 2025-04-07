@@ -3,37 +3,41 @@ Ejercicios subredes y direcciones IP
 1. Usted tiene la siguiente dirección IP 192.233.10.56/28 ¿Cuántos IP para host y cuantas
 subredes como máximo son posibles?
 
-• 255.255.255.1111 0000
-• 255.522.255.24
+* 255.255.255.1111 0000
+* 255.522.255.24
 
-• 28-24 = 4 --> 2⁴ = 16subredes
-• 16 - 2 = 14 host
+* 28-24 = 4 --> 2⁴ = 16subredes
+* 16 - 2 = 14 host
 
 2. Se tiene la siguiente dirección 220.100.100.10/27. ¿Cuál es la subred a la que
 pertenece la dirección IP?
 
-• 220.100.100.10/27
-• 255.255.255.1110 0000
-• 24 - 27 = 2³ = 8subredes
-• 8 - 2 = 6 host 
+* 220.100.100.10/27
+* 255.255.255.1110 0000
+* 24 - 27 = 2³ = 8subredes
+* 8 - 2 = 6 host 
 
 3. Sea la dirección de una subred 150.214.141.0, con una máscara de red 255.255.255.0
 Comprobar cuáles de estas direcciones no pertenecen a dicha red:
 
-•  150.214.141.32
-• 150.214.141.138
-• 150.214.142.23 --> Al hacer el and da todo 0 por eso no pertenece
+* 150.214.141.32
+* 150.214.141.138
+* 150.214.142.23 --> Al hacer el and da todo 0 por eso no pertenece
 
 4. Si un nodo de una red tiene la dirección 172.16.45.14/30. ¿Cuál es la dirección de la
 subred a la cual pertenece ese nodo?
 
-• 255.255.255.1111 1100
-• 255.255.255.252/30
-• 
+* 255.255.255.1111 1100
+* 255.255.255.252/30 
+
 5. La empresa en la que se desempeña tiene asignada la dirección clase B 172.12.0.0.
 De acuerdo a las necesidades planteadas, esta red debería ser dividida en subredes
 que soporten un máximo de 459 hosts por subred, procurando mantener en su máximo
 el número de subredes disponibles ¿Cuál es la máscara que deberá utilizar?
+
+* 175.12.0.0
+* 255.255.254.0
+
 6. Una red está dividida en 8 subredes de una clase B. ¿Qué mascara de subred se
 deberá utilizar si se pretende tener 2500 host por subred?
 7. Su red utiliza la dirección IP 172.30.0.0/16. Inicialmente existen 25 subredes. Con un
