@@ -47,5 +47,16 @@ deberá utilizar si se pretende tener 2500 host por subred?
 7. Su red utiliza la dirección IP 172.30.0.0/16. Inicialmente existen 25 subredes. Con un
 mínimo de 1000 hosts por subred. Se proyecta un crecimiento en los próximos años de
 un total de 55 subredes. ¿Qué mascara de subred se deberá utilizar?
+
+* 172.30.0.0/16.
+* 55 subredes.
+* 6 bits para las subredes 2^6 = 64
+* Nueva máscara de subred es /22.
+
 8. Se tiene una dirección IP 172.17.111.0 mascara 255.255.254.0, ¿cuántas subredes y
 cuantos host validos habrá por subred?
+
+* 255.255.254.0 Máscara de red
+* 255.255.11111110.00000000
+* subredes = 64
+* hosts = 510
