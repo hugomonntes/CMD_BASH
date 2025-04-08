@@ -60,3 +60,8 @@ cuantos host validos habrá por subred?
 * 255.255.11111110.00000000
 * subredes = 64
 * hosts = 510
+
+DC --> MADRID: 2-1 BAYERN: 1 - 1
+PS --> MADRID: 1-2 BAYERN: 2 - 1
+IT --> MADRID: 2-1 BAYERN: 3 - 0
+HM --> MADRID: 1-1 BAYERN: 0 - 0 
