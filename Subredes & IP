@@ -41,8 +41,8 @@ el número de subredes disponibles ¿Cuál es la máscara que deberá utilizar?
 6. Una red está dividida en 8 subredes de una clase B. ¿Qué mascara de subred se
 deberá utilizar si se pretende tener 2500 host por subred?
 
-*
-*
+* 255.255.0.0 / 19
+* 255.255.233.0 / 19
 
 7. Su red utiliza la dirección IP 172.30.0.0/16. Inicialmente existen 25 subredes. Con un
 mínimo de 1000 hosts por subred. Se proyecta un crecimiento en los próximos años de
