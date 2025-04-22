@@ -200,11 +200,8 @@ siguientes direcciones IP y máscaras de subred:
     IP 192.168.1.0/30
     mascara 255.255.225.0
     mascara/30 255.255.255.1322 11--mascara/30 255.255.255.252/30
-    redes = 2^6 = 64 hosts validos = 2
-    hosts = 2^2= 4
-    + dirección subred
-    + broadcast
-    = 4 hosts
+    redes = 2^6 = 64 
+    hosts validos = 2
 
 7. Tenemos una red clase B con IP 180.10.1.0 y máscara de subred 255.255.254.0, que queremos dividir en 6subredes. ¿Cómo sería su máscara de subred modificada o ampliada?
     
