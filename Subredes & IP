@@ -179,6 +179,45 @@ años ¿Cuántos bits a uno necesitaremos en la máscara de subred para obtener 
 
 6. La red clase C 192.168.1.0 /30, está dividida en subredes ¿cuántas subredes y cuantos hosts
 por subred tendrá cada una?
-
+f) 127.0.0.1 → dirección de loop back
+3. Viendo las direcciones IP de los hosts públicos de una empresa observamos que todas están comprendidas entre 194.143.17.145 y 194.143.17.158, ¿Cuál es (probablemente) su dirección de red, broadcasting y máscara?
+194.143.17.145
+194.143.17.1001 0001
+Máscada de red 255.255.255.0
+Broadcast 194.143.17.255
+Dirección de red 194.143.17.0
+194.143.17.158
+194.143.17.1021 1119
+4. Tenemos una red con dirección IP de clase B dividida en 7 subredes. Si queremos tener 2500 host por subred, ¿qué máscara de subred debemos utilizar?
+IP clase B
+7 subredes
+2500 hosts /subred
+Máscara de red 255.255.0.0/16
+2^3=8
+Máscara de red 255.255.111 -
+Máscara de subred 255.255.224.0/19
+5. Una red clase B será dividida en 20 subredes a las que se sumaran 4 más en los próximos años ¿Cuántos bits a uno necesitaremos en la máscara de subred para obtener un total de
+2000 host por subred?
+mascara de red 255.255.0.0
+2^5=32
+255.255. 12 2 1
+248
+255.255.248.0/21
+6. La red clase C 192.168.1.0/30, está dividida en subredes ¿cuántas subredes y cuantos hosts por subred tendrá cada una?
+IP 192.168.1.0/30
+mascara 255.255.225.0
+mascara/30 255.255.255.1322 11--mascara/30 255.255.255.252/30
+redes = 2^6 = 64 hosts validos = 2
+hosts = 2^2= 4
++ dirección subred
++ broadcast
+= 4 hosts
+7. Tenemos una red clase B con IP 180.10.1.0 y máscara de subred 255.255.254.0, que queremos dividir en 6subredes. ¿Cómo sería su máscara de subred modificada o ampliada?
+IP 180.10.1.0
+255.255.254.0
+255.255.1111
+1122.0
+para 6 subredes
+255.255.224.0
 7. Tenemos una red clase B con IP 180.10.1.0 y máscara de subred 255.255.254.0, que
 queremos dividir en 6subredes. ¿Cómo sería su máscara de subred modificada o ampliada?
