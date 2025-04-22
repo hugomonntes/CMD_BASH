@@ -3,65 +3,182 @@ Ejercicios subredes y direcciones IP
 1. Usted tiene la siguiente dirección IP 192.233.10.56/28 ¿Cuántos IP para host y cuantas
 subredes como máximo son posibles?
 
-* 255.255.255.1111 0000
-* 255.522.255.24
+    IP 192.233.10.56/28
+    Máscara/24 255.255.255.0
+    Máscara/28 255.255.1111 0000.0
+    Máscara/28 255.255.240.0
+    
+    28-24=4 bits=2^4=16subredes
+    32-28=4 bits=2^4=16 hosts -2 = 14 hosts válidos/subred
 
-* 28-24 = 4 --> 2⁴ = 16subredes
-* 16 - 2 = 14 host
+2. Se tiene la siguiente dirección 220.100.100.10/27. ¿Cuál es la subred a la que pertenece la
+dirección IP?
 
-2. Se tiene la siguiente dirección 220.100.100.10/27. ¿Cuál es la subred a la que
-pertenece la dirección IP?
-
-* 220.100.100.10/27
-* 255.255.255.1110 0000
-* 24 - 27 = 2³ = 8subredes
-* 8 - 2 = 6 host 
+    IP 220.100.100.10/27
+    Máscara/24 255.255.255.0
+    Máscara/27 255.255.255.1110 0000
+    Máscara/27 255.255.255.224
+    
+    220.100.100.10 → 220.100.100.0000 1010
+    255.255.255.224 → 255.255.255.1110 0000 (AND)
+    0000 0000
+    220.100.100.0/27 →pertenece a la primera subred
 
 3. Sea la dirección de una subred 150.214.141.0, con una máscara de red 255.255.255.0
 Comprobar cuáles de estas direcciones no pertenecen a dicha red:
 
-* 150.214.141.32
-* 150.214.141.138
-* 150.214.142.23 --> Al hacer el and da todo 0 por eso no pertenece
+    Máscara de red → 255.255.255.0000 0000
+    150.214.141.32
+    150.214.141.0000 0000
+    150.214.141.0
+    
+    150.214.141.32→150.214.141.0001 0000
+    255.255.255.0000 0000(AND)
+    0000 0000
+    
+    150.214.141.138
+    150.214.141.0000 0000
+    150.214.141.0
+    
+    150.214.141.138→150.214.141.1000 1010
+    255.255.255.0000 0000(AND)
+    0000 0000
+    
+    150.214.142.23
+    150.214.142. 0000 0000
+    150.214.142.0 (no devuelve la dirección de subred)
+    
+    150.214.142.23 → 150.214.142.0001 0111
+    255.255.255.0000 0000(AND)
+    0000 0000
 
-4. Si un nodo de una red tiene la dirección 172.16.45.14/30. ¿Cuál es la dirección de la
-subred a la cual pertenece ese nodo?
+4. Si un nodo de una red tiene la dirección 172.16.45.14/30. ¿Cuál es la dirección de la subred a
+la cual pertenece ese nodo?
 
-* 255.255.255.1111 1100
-* 255.255.255.252/30 
+    IP 172.16.45.14/30
+    Máscara/24 255.255.0.0
+    Máscara /30 255.255.1111 1111.1111 1100
+    Máscara /30 255.255.255.252
+    
+    172.16.45.14→ 172.16.45.0000 1110
+    255.255.255.252→255.255.255.1111 1100 (AND)
+    0000 1100→12
 
-5. La empresa en la que se desempeña tiene asignada la dirección clase B 172.12.0.0.
-De acuerdo a las necesidades planteadas, esta red debería ser dividida en subredes
-que soporten un máximo de 459 hosts por subred, procurando mantener en su máximo
-el número de subredes disponibles ¿Cuál es la máscara que deberá utilizar?
+5. La empresa en la que se desempeña tiene asignada la dirección clase B 172.12.0.0 De acuerdo
+a las necesidades planteadas, esta red debería ser dividida en subredes que soporten un máximo
+de 459 hosts por subred, procurando mantener en su máximo el número de subredes
+disponibles ¿Cuál es la máscara que deberá utilizar?
 
-* 175.12.0.0
-* 255.255.254.0
+    Dirección IP 172.12.0.0
+    Hosts por subred 459
+    2^9=512
+    Mascara de red 255.255.0.0
+    Mascara de subred/23 255.255.254.0
+    
+    255.255.0.0→255.255.0000 0000.0000 0000
+    255.255.1111 1110.0000 0000
+    Subredes Hosts
 
-6. Una red está dividida en 8 subredes de una clase B. ¿Qué mascara de subred se
-deberá utilizar si se pretende tener 2500 host por subred?
+6. Una red está dividida en 8 subredes de una clase B. ¿Qué máscara de subred se deberá
+utilizar si se pretende tener 2500 host por subred?
 
-* 255.255.0.0 / 19
-* 255.255.233.0 / 19
+    Máscara de red /16 255.255.0.0
+    2^3=8 subredes
+    Máscara de subred 255.255.224.0/19
+    32-8=24 = 2^24= admite mas de 2500 host por subred
+    
+    255.255.0.0 →255.255.0000 0000.0000 0000
+    255.255.1110 0000.0000 0000
+    255.255.224.0/19
 
-7. Su red utiliza la dirección IP 172.30.0.0/16. Inicialmente existen 25 subredes. Con un
-mínimo de 1000 hosts por subred. Se proyecta un crecimiento en los próximos años de
-un total de 55 subredes. ¿Qué mascara de subred se deberá utilizar?
+7. Su red utiliza la dirección IP 172.30.0.0/16. Inicialmente existen 25 subredes. Con un mínimo
+de 1000 hosts por subred. Se proyecta un crecimiento en los próximos años de un total de 55
+subredes. ¿Qué máscara de subred se deberá utilizar?
 
-* 172.30.0.0/16.
-* 55 subredes.
-* 6 bits para las subredes 2^6 = 64
-* Nueva máscara de subred es /22.
+    Dirección IP 172.30.0.0/16
+    Mascara de red/16 255.255.0.0
+    Subredes futuras 55
+    2^6=64
+    
+    255.255.0.0 →255.255.0000 0000.0000 0000
+    255.255.1111 1100.0000 0000
+    Nueva máscara de subred/22 255.255.252.0
 
-8. Se tiene una dirección IP 172.17.111.0 mascara 255.255.254.0, ¿cuántas subredes y
-cuantos host validos habrá por subred?
+8. Se tiene una dirección IP 172.17.111.0 máscara 255.255.254.0, ¿cuántas subredes y cuantos
+hosts validos habrá por subred?
 
-* 255.255.254.0 Máscara de red
-* 255.255.11111110.00000000
-* subredes = 64
-* hosts = 510
+    Dirección IP 172.17.111.0
+    Mascara de red 255.255.254.0
+    
+    255.255.254.0 → 255.255.1111 1110.0000 0000
+    Subredes Hosts
+    2^7= 128 subredes
+    2^9= 512 hosts-2= 510 host válidos
 
-DC --> MADRID: 2-1 BAYERN: 1 - 1
-PS --> MADRID: 1-2 BAYERN: 2 - 1
-IT --> MADRID: 2-1 BAYERN: 3 - 0
-HM --> MADRID: 1-1 BAYERN: 0 - 0 
+1. Calcular la dirección de red y dirección de broadcasting (difusión) de las máquinas con las
+siguientes direcciones IP y máscaras de subred:
+
+  a) 18.120.16.250 de clase A
+  Máscara de red 255.0.0.0
+  Dirección de red 18.0.0.0
+  Dirección de Broadcast 18.255.255.255
+
+  b) 18.120.16.255/16
+  Máscara de red 255.255.0.0
+  Dirección de red 18.120.0.0
+  Dirección de Broadcast 18.120.255.255
+  
+  c) 155.4.220.39 máscara 255.255.192.0
+  Máscara de red 255.255.192.0
+  Dirección de red 155.4.220.0
+  Dirección de Broadcast 155.4.255.255
+  
+  155.4.220.0 → 155.4.1101 1100.0
+  255.255.255.240 → 255.255.1100 0000.0 (AND)
+  1101 1100 → 220
+  
+  d) 194.209.14.33 de clase C
+  Máscara de red 255.255.255.0
+  Dirección de red 194.209.14.0
+  Dirección de Broadcast 194.209.14.255
+  
+  e) 190.33.109.133/24
+  Máscara de red 255.255.255.0
+  Dirección de red 190.33.109.0
+  Dirección de Broadcast 190.33.109.255
+  
+  f) 192.168.20.25 máscara 255.255.255.240
+  Máscara de red 255.255.255.240
+  Dirección de red 192.168.20.16
+  Dirección de Broadcast 192.168.20.31
+
+  192.168.20.25 → 192.168.20. 0001 1001
+  255.255.255.240 → 255.255.255.1111 0000 (AND)
+  0001 0000 → 16
+
+2. Suponiendo que nuestro ordenador tiene la dirección IP 192.168.5.65 con máscara
+255.255.255.0, indicar qué significan las siguientes direcciones:
+
+  a) 0.0.0.0 en la tabla de rutas → llama a la puerta de enlace (gateway)
+  b) 192.168.5.0 → prefijo de red
+  c) 192.168.5.128 → dirección IP de esta red
+  d) 192.168.5.255 → dirección de broadcast
+  e) 192.130.5.255 → dirección IP de otra red
+  f) 127.0.0.1 → dirección de loop back
+
+3. Viendo las direcciones IP de los hosts públicos de una empresa observamos que todas están
+comprendidas entre 194.143.17.145 y 194.143.17.158, ¿Cuál es (probablemente) su dirección
+de red, broadcasting y máscara?
+
+4. Tenemos una red con dirección IP de clase B dividida en 7 subredes. Si queremos tener 2500
+host por subred, ¿qué máscara de subred debemos utilizar?
+
+5. Una red clase B será dividida en 20 subredes a las que se sumaran 4 más en los próximos
+años ¿Cuántos bits a uno necesitaremos en la máscara de subred para obtener un total de
+2000 host por subred?
+
+6. La red clase C 192.168.1.0 /30, está dividida en subredes ¿cuántas subredes y cuantos hosts
+por subred tendrá cada una?
+
+7. Tenemos una red clase B con IP 180.10.1.0 y máscara de subred 255.255.254.0, que
+queremos dividir en 6subredes. ¿Cómo sería su máscara de subred modificada o ampliada?
