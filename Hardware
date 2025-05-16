@@ -2,8 +2,16 @@
 potencia. ¿Podremos conectarle dos dispositivos que consuman 400 mA y 600 mA de
 corriente, respectivamente? ¿Y si le añadimos una impresora al ordenador que
 consuma 2A?
+
+Watios = Voltios * Amperios 
+X = 230V * (600mA + 400mA)
+X = 230W
+
 2. Si nuestra fuente de alimentación tiene un OUTPUT=10V y 350mA. ¿Podremos
 conectar un dispositivo que consuma 10V y 500mA?
+
+
+
 3. Indica si son verdaderas o falsas las siguientes afirmaciones. En caso negativo,
 explícalo razonadamente.
  La CPU, la memoria principal y la tarjeta gráfica están conectadas al puente sur
@@ -18,4 +26,6 @@ microprocesador.
  En las placas antiguas se usaba un conector sub-D 9 pines para el puerto
 paralelo y un sub-D 25 para el puerto serie.
  Las GPU necesitan de un disipador y ventilador, al igual que la CPU.
+
+
 4. ¿Qué tipos de formateo podemos aplicar a un disco?
