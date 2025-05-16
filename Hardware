@@ -1,0 +1,21 @@
+1. Si disponemos en nuestro ordenador de una fuente de alimentación de 600W de
+potencia. ¿Podremos conectarle dos dispositivos que consuman 400 mA y 600 mA de
+corriente, respectivamente? ¿Y si le añadimos una impresora al ordenador que
+consuma 2A?
+2. Si nuestra fuente de alimentación tiene un OUTPUT=10V y 350mA. ¿Podremos
+conectar un dispositivo que consuma 10V y 500mA?
+3. Indica si son verdaderas o falsas las siguientes afirmaciones. En caso negativo,
+explícalo razonadamente.
+ La CPU, la memoria principal y la tarjeta gráfica están conectadas al puente sur
+porque permite una comunicación de mayor velocidad.
+ El puente norte y el sur están conectados entre sí a través de la FSB.
+ El EFI es el sustituto de la BIOS, ofreciendo nuevas funcionalidades, pero sigue
+trabajando con 16 bits al igual que la BIOS.
+ Las cachés L1, L2 y L3 están ubicadas, hoy en día, en el núcleo del
+microprocesador.
+ Las memorias DRAM son más rápidas que las SRAM, pero más caras.
+ Las memorias caché L1 y L2 suelen ser DRAM por ser mucho más rápidas.
+ En las placas antiguas se usaba un conector sub-D 9 pines para el puerto
+paralelo y un sub-D 25 para el puerto serie.
+ Las GPU necesitan de un disipador y ventilador, al igual que la CPU.
+4. ¿Qué tipos de formateo podemos aplicar a un disco?
